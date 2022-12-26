@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+p {
+    font-family:Arial, Helvetica, sans-serif;
+}
 *{
   margin: 0;
   padding: 0;
@@ -230,12 +233,14 @@ input[type="checkbox"]{
   color: #f4f9ff;
   font: 500;
   margin-top: 10px;
+  font-size: 18px;
 }
 
 .info-abt-me {
   margin-top: 50px;
   color:#f4f9ff;
   margin-left: 15px;
+  font-size: 13px;
 }
 
 .services-section-container{
