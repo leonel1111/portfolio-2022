@@ -171,13 +171,13 @@ input[type="checkbox"]{
   cursor: pointer;
   margin-right: 8px;
   margin-top: 40px;
-  transition: background-color 0.2s, opacity 0.2s, color 0.2s;
-
+  transition: 0.2s;
 
 }
 .CV:hover{
   background-color: #8CB1DD;
   color: #0F3460;
+  transform: scale(1.06);
 }
 
 .icon-link{
@@ -198,6 +198,7 @@ input[type="checkbox"]{
 
 #icon:hover{
   opacity: 1.0;
+  transform: scale(1.1);
 }
 
 .about-container{
